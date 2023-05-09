@@ -221,7 +221,7 @@ body{
     transition: transform 0.5s ease-in-out;
 }
 .loader{
-    background: pink;
+    background: white;
     width: 100%;
     height: 100%;
     display: flex;
@@ -229,7 +229,7 @@ body{
     justify-content: center;
     position: absolute;
     z-index: 3;
-    animation: loader 0.5s linear forwards;
+    animation: loader 2s linear forwards;
 }
 
 @keyframes loader {
@@ -247,7 +247,7 @@ body{
     }
 }
 .loader div{
-    background: rgb(230, 224, 225);
+    background: lightpink;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -355,7 +355,7 @@ body{
     z-index: 0;
 }
 
-.modal-container button {
+.modal__content button {
     grid-column: 2 / 3;
     width: 250px;
     height: 50px;
@@ -366,6 +366,6 @@ body{
     border-radius: 3px;
 }
 
-.modal-container button:hover {
+.modal__content button:hover {
     background: var(--blue);
 }
